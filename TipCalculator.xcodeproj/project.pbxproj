@@ -44,6 +44,7 @@
 		BD44BD6A1BA5E72400037EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD44BD691BA5E72400037EC7 /* Assets.xcassets */; };
 		BD86E78B1BB1AB2D00231F8E /* Splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD86E7891BB1AB2D00231F8E /* Splash@2x.png */; settings = {ASSET_TAGS = (); }; };
 		BD86E78C1BB1AB2D00231F8E /* Splash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD86E78A1BB1AB2D00231F8E /* Splash@3x.png */; settings = {ASSET_TAGS = (); }; };
+		BD86E78E1BB3155200231F8E /* Main4S.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD86E78D1BB3155200231F8E /* Main4S.storyboard */; settings = {ASSET_TAGS = (); }; };
 		BDE5CAD71BAC680A0024B70A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD44BD591BA5E72400037EC7 /* Assets.xcassets */; };
 		BDE5CAD81BAC680D0024B70A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD061B3E1BAB07540037481D /* Images.xcassets */; };
 		BDE5CADB1BAC6B270024B70A /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = BDE5CAD91BAC6B270024B70A /* happy.png */; };
@@ -123,6 +124,7 @@
 		BD44BD6B1BA5E72400037EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD86E7891BB1AB2D00231F8E /* Splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash@2x.png"; sourceTree = "<group>"; };
 		BD86E78A1BB1AB2D00231F8E /* Splash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash@3x.png"; sourceTree = "<group>"; };
+		BD86E78D1BB3155200231F8E /* Main4S.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main4S.storyboard; sourceTree = "<group>"; };
 		BDE5CAD91BAC6B270024B70A /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
 		BDE5CADA1BAC6B270024B70A /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
 		BDE5CADD1BAC6B2F0024B70A /* happy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "happy@2x.png"; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				BD44BD421BA5E72400037EC7 /* AppDelegate.swift */,
 				BD44BD441BA5E72400037EC7 /* ViewController.swift */,
 				BD44BD461BA5E72400037EC7 /* Main.storyboard */,
+				BD86E78D1BB3155200231F8E /* Main4S.storyboard */,
 				BD44BD4B1BA5E72400037EC7 /* LaunchScreen.storyboard */,
 				BD44BD4E1BA5E72400037EC7 /* Info.plist */,
 				BD061B3E1BAB07540037481D /* Images.xcassets */,
@@ -345,6 +348,7 @@
 				BDE5CAE41BAC6B370024B70A /* sad@3x.png in Resources */,
 				BDE5CAE31BAC6B370024B70A /* happy@3x.png in Resources */,
 				BD86E78C1BB1AB2D00231F8E /* Splash@3x.png in Resources */,
+				BD86E78E1BB3155200231F8E /* Main4S.storyboard in Resources */,
 				BD44BD4D1BA5E72400037EC7 /* LaunchScreen.storyboard in Resources */,
 				BD44BD481BA5E72400037EC7 /* Main.storyboard in Resources */,
 				BDE5CADF1BAC6B2F0024B70A /* happy@2x.png in Resources */,

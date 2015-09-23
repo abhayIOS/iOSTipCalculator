@@ -22,6 +22,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var lblTotal: UILabel!
     @IBOutlet weak var lblTipPerPerson: UILabel!
     @IBOutlet weak var lblTotalPerPerson: UILabel!
+    
     @IBOutlet weak var lblTotalTipValue: UILabel!
     @IBOutlet weak var lblTotalValue: UILabel!
     @IBOutlet weak var lblTipPerPersonValue: UILabel!
@@ -72,9 +73,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         lblTotalPerPerson.font = UIFont(name: "HelveticaNeue-Light", size: 18);
         lblTotalPerPersonValue.font = UIFont(name: "HelveticaNeue-Light", size: 30);
         
-        let navigationBarAppearance = UINavigationBar.appearance()
+//        let navigationBarAppearance = UINavigationBar.appearance()
+//        
+//        navigationBarAppearance.titleTextAttributes = [ NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 25)!,  NSForegroundColorAttributeName: UIColor.whiteColor()]
         
-        navigationBarAppearance.titleTextAttributes = [ NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 25)!,  NSForegroundColorAttributeName: UIColor.whiteColor()]
+        self.navigationController?.navigationBar.titleTextAttributes = [ NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 23)!,  NSForegroundColorAttributeName: UIColor.whiteColor()];
 
     }
     
