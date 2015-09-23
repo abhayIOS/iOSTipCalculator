@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TipCalculator_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label height="16" alignment="center" text="Check Amount" textAlignment="center" id="bog-pX-72V">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <group width="1" height="38" alignment="left" id="v3H-yr-fHy">
+                            <items>
+                                <label height="46" alignment="center" text="$" id="JNt-9b-MJA"/>
+                                <picker width="50" height="46" alignment="center" focusStyle="stack" id="nfg-Jk-Kw5">
+                                    <connections>
+                                        <action selector="decChanged:" destination="AgC-eL-Hgc" id="jf7-jW-qzk"/>
+                                    </connections>
+                                </picker>
+                                <label alignment="center" verticalAlignment="center" text="." id="5ix-rw-Wd6"/>
+                                <picker width="50" height="46" alignment="center" focusStyle="stack" id="WyH-3D-chs">
+                                    <connections>
+                                        <action selector="preChanged:" destination="AgC-eL-Hgc" id="hIQ-TA-XWU"/>
+                                    </connections>
+                                </picker>
+                            </items>
+                        </group>
+                        <group width="1" height="40" alignment="center" id="k2X-tX-rrj">
+                            <items>
+                                <label width="56" alignment="left" verticalAlignment="center" text="Tip" textAlignment="right" id="Meg-7s-53v">
+                                    <color key="textColor" red="1" green="0.98964573929999999" blue="0.35035037870000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                    <variation key="device=watch38mm" width="46"/>
+                                </label>
+                                <picker width="50" height="46" alignment="center" focusStyle="stack" id="DEa-xb-1wH">
+                                    <connections>
+                                        <action selector="percentChanged:" destination="AgC-eL-Hgc" id="ovV-b1-EFz"/>
+                                    </connections>
+                                </picker>
+                                <label width="23.5" alignment="right" verticalAlignment="center" text="%" textAlignment="left" id="PNj-bN-Fuc">
+                                    <color key="textColor" red="1" green="0.98964573929999999" blue="0.35035037870000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <variation key="device=watch38mm" width="34.5"/>
+                                    <variation key="device=watch42mm" width="41.5"/>
+                                </label>
+                            </items>
+                            <variation key="device=watch38mm" height="38"/>
+                        </group>
+                        <group width="136" height="100" alignment="center" id="v1K-JE-XZX">
+                            <items>
+                                <group width="65" height="42" alignment="left" layout="vertical" id="QBN-0W-Hw0">
+                                    <items>
+                                        <label width="54" height="22" alignment="left" text="Tip" textAlignment="center" id="eyd-vL-PRJ">
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            <variation key="device=watch38mm" height="24" width="96"/>
+                                            <variation key="device=watch42mm" height="32.5" width="107"/>
+                                        </label>
+                                        <label width="55" height="13" alignment="left" text="00.00" textAlignment="center" id="WNQ-GE-hoh">
+                                            <color key="textColor" red="1" green="0.98964573929999999" blue="0.35035037870000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <variation key="device=watch38mm" height="13" width="96"/>
+                                            <variation key="device=watch42mm" height="17.5" width="77"/>
+                                        </label>
+                                    </items>
+                                    <variation key="device=watch38mm" height="42" width="62"/>
+                                    <variation key="device=watch42mm" height="54" width="63"/>
+                                </group>
+                                <label width="6" height="48" alignment="left" text="Label" id="FFP-tC-Fnk">
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="59"/>
+                                    <variation key="device=watch38mm" height="71"/>
+                                    <variation key="device=watch42mm" height="51.5" text="|" width="8"/>
+                                </label>
+                                <group width="65" height="100" alignment="right" layout="vertical" id="1oJ-v8-qHa">
+                                    <items>
+                                        <label width="96" height="14" alignment="right" verticalAlignment="bottom" text="00.00" textAlignment="center" id="eMt-Zt-AFy">
+                                            <color key="textColor" red="0.23296622580000001" green="0.66666666669999997" blue="0.23211204060000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <variation key="device=watch38mm" height="13" width="76"/>
+                                            <variation key="device=watch42mm" height="14.5" width="84"/>
+                                        </label>
+                                        <label width="96" height="19" alignment="right" text="Total" textAlignment="center" id="tBQ-Jv-Xmr">
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            <variation key="device=watch38mm" height="24" width="70"/>
+                                            <variation key="device=watch42mm" height="32.5" width="89"/>
+                                        </label>
+                                    </items>
+                                    <variation key="device=watch38mm" height="42"/>
+                                    <variation key="device=watch42mm" height="54"/>
+                                </group>
+                            </items>
+                            <variation key="device=watch38mm" height="46"/>
+                            <variation key="device=watch42mm" height="54" width="144"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="decPicker" destination="nfg-Jk-Kw5" id="J0P-m8-2jo"/>
+                        <outlet property="percentPicker" destination="DEa-xb-1wH" id="fTS-Ky-Pvo"/>
+                        <outlet property="prePicker" destination="WyH-3D-chs" id="BXX-eN-U5p"/>
+                        <outlet property="tipAmountTxt" destination="WNQ-GE-hoh" id="kis-2n-w1o"/>
+                        <outlet property="totaltxt" destination="eMt-Zt-AFy" id="H8H-Xi-xkh"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="666.92307692307702" y="552.28205128205127"/>
+        </scene>
+    </scenes>
+</document>
