@@ -10,10 +10,8 @@
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIcons</key>
 	<dict/>
-	<key>CFBundleIcons~ipad</key>
-	<dict/>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>com.abhay.TipCalculator.WatchApp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -25,14 +23,14 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.abhay.smatest.TipCalculator</string>
+	<string>com.abhay.TipCalculator</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
